@@ -9,9 +9,11 @@ import Foundation
 
 struct Post: Codable {
     let id: String
-    let title: String
-    let userId: String
-    let postImages: [String]
-    let thumnailPost: String
+    let mission: String
+    let postImageUrl: String
     let crestedAt: String
+    let userIconUrl: String
+    let userName: String
+    let userId: String
+    let likes: String
 }

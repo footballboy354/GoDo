@@ -81,6 +81,17 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		1AA1280E2D7D3290004DDE17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AF6A7122CF2E9880037883F /* LaunchScreen.storyboard */,
+				1AF6A70D2CF2E9860037883F /* Main.storyboard */,
+				1AE4E7EA2D33681900084F1B /* CollectionViewCell.swift */,
+				1AE4E7EB2D33681900084F1B /* CollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1AF6A6FB2CF2E9860037883F = {
 			isa = PBXGroup;
 			children = (
@@ -100,15 +111,12 @@
 		1AF6A7062CF2E9860037883F /* GoDo */ = {
 			isa = PBXGroup;
 			children = (
+				1AA1280E2D7D3290004DDE17 /* View */,
 				1AF6A7072CF2E9860037883F /* AppDelegate.swift */,
 				1AF6A7092CF2E9860037883F /* SceneDelegate.swift */,
-				1AF6A70D2CF2E9860037883F /* Main.storyboard */,
-				1AE4E7EA2D33681900084F1B /* CollectionViewCell.swift */,
-				1AE4E7EB2D33681900084F1B /* CollectionViewCell.xib */,
 				1A8B2ECB2CF30208000A946A /* Model */,
 				1A8B2ECA2CF301BD000A946A /* Controller */,
 				1AF6A7102CF2E9880037883F /* Assets.xcassets */,
-				1AF6A7122CF2E9880037883F /* LaunchScreen.storyboard */,
 				1A6993B72D6AFAC8009AFDC0 /* GoogleService-Info.plist */,
 				1AF6A7152CF2E9880037883F /* Info.plist */,
 			);

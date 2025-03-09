@@ -31,6 +31,9 @@
                                 <state key="normal" title="  投稿">
                                     <imageReference key="image" image="paperplane" catalog="system" symbolScale="large"/>
                                 </state>
+                                <connections>
+                                    <action selector="postImage" destination="Fnp-eC-Ob7" eventType="touchUpInside" id="sJd-4w-EHp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8uf-7y-cQw"/>
